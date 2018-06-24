@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px){		
+	header h1{margin-top: 11vh}
+	
+	header .anchor {height: auto }
+	
+	header p{height: auto}
+	
+	#articles .flex{width: 79%;}
+	
+	#articles section .art{
+		width: 85%;
+		height: 58%;
+		margin-bottom: 5px;
+	}
+	
+	#articles section .art p{width: 100%}
+	
+	#articles section .hr{display: none}
+	
+	#news p{font-size: 1.8em}
+	
+	.slider{right: 0}
+	
+	.slide {margin-top: 8%}
+	
+	article h1,footer h1{
+		font-size: 4em;
+		padding-top: 3%
+	}
+	
+	#progress .user-img{width: 50%}
+	
+	footer .flex{
+		width: 80%;
+		margin-top: 10%
+	}
+	
+	footer div div {
+		height: auto;
+		width: 50%;
+	}
+	
+	footer div span{ 
+		font-size: 1.5em;
+		display: block;
+		padding-top: 15%;
+	}
+	
+	footer div div img{
+		width: 40px;
+		height: 40px;
+	}
+	
+	footer div .hidden{display: inline}
+	
+	footer div .at{display: none}
+	
+	footer form input{width: 89%}
+	
+	footer form textarea{width: 300px;}
+}
+
+@media screen and  (max-width: 768px){
+	header .down-slider{
+		display: inline;
+		float: right;
+	}
+	
+	header .container nav ul{
+		display: none;
+		flex-direction: column;
+		float: right;
+		line-height: 2em
+	}
+	
+	header .container nav ul .current{
+		float: right;
+		margin-right: 10%;
+	}
+	
+	header h1{clear: both}
+	
+}
